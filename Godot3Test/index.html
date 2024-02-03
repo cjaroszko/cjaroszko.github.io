@@ -7,17 +7,18 @@
 	<style type='text/css'>
 
 		body {
-			display: flex;
-    		justify-content: center;
-    		align-items: center;
-    		height: 100vh;
-    		margin: 0;
+			touch-action: none;
+			margin: 0;
+			border: 0 none;
+			padding: 0;
+			text-align: center;
+			background-color: black;
 		}
 
 		#canvas {
 			display: block;
 			margin: 0;
-			color: #e68ddf;
+			color: white;
 		}
 
 		#canvas:focus {
@@ -27,7 +28,7 @@
 		.godot {
 			font-family: 'Noto Sans', 'Droid Sans', Arial, sans-serif;
 			color: #e0e0e0;
-			background-color: #e68ddf;
+			background-color: #3b3943;
 			background-image: linear-gradient(to bottom, #403e48, #35333c);
 			border: 1px solid #45434e;
 			box-shadow: 0 0 1px 1px #2f2d35;
@@ -138,7 +139,7 @@
 	<script type='text/javascript' src='index.js'></script>
 	<script type='text/javascript'>//<![CDATA[
 
-		const GODOT_CONFIG = {"args":[],"canvasResizePolicy":1,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":9248,"index.wasm":17865444},"focusCanvas":true,"gdnativeLibs":[]};
+		const GODOT_CONFIG = {"args":[],"canvasResizePolicy":0,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":9264,"index.wasm":13790961},"focusCanvas":true,"gdnativeLibs":[]};
 		var engine = new Engine(GODOT_CONFIG);
 
 		(function() {
